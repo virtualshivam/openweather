@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{{>headerlinks}}
+</head>
+<body>
+
+	<!-- Navbar -->
+
+{{>navbar}}
+	
+<!-- main header -->
+
+	<div class="container-fluid main_header">
+		<div class="row">
+			<div class="col-md-10 col-12 mx-auto">
+				<div class="row">
+					<!-- left side div -->
+					<div class=" col-12 main_header_left align-items-center">
+						<figure class="errimg">
+							<img src="/images/404.png" alt="Shivam's Image" class="img-fluid" title="Shivam">
+						</figure>
+						<p class="text-capitalize">Welcome to the tech world</p>
+						<h1 class="text-capitalize">{{errorMsg}}</h1>
+						<a href="/"><button class="text-uppercase">Go Back</button></a>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- footer -->
+{{>footer}}
+
+<!-- Bootstrap Scripts file	 -->
+
+</body>
+</html>
